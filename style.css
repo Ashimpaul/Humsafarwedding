@@ -1,0 +1,68 @@
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+.hover-grow:hover {
+  transform: scale(1.05);
+}
+.whatsapp-btn {
+  background-color: #25D366;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+.whatsapp-icon {
+  width: 32px;
+  height: 32px;
+}
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Container for stories */
+.story-container {
+position: relative;
+padding-right: 15px; /* space for the scrollbar */
+scroll-behavior: smooth; /* Smooth scroll */
+}
+
+/* Hide scrollbar */
+.scrollbar-hidden {
+overflow-y: scroll; /* Keep the scrollable area */
+scrollbar-width: none; /* For Firefox */
+}
+
+/* For Webkit browsers (Chrome, Safari, Edge) */
+.scrollbar-hidden::-webkit-scrollbar {
+display: none; /* Hide the scrollbar */
+}
+/* Add smooth scrolling transition */
+#testimonial-slider {
+transition: transform 0.3s ease-in-out;
+}
+
+/* For the next/previous buttons */
+#prev-testimonial, #next-testimonial {
+background: rgba(255, 255, 255, 0.7);
+border: none;
+padding: 10px;
+border-radius: 50%;
+cursor: pointer;
+font-size: 2rem;
+}
+
+#prev-testimonial:hover, #next-testimonial:hover {
+background: rgba(255, 255, 255, 0.9);
+}
+
+
